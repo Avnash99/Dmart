@@ -1,0 +1,748 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E1386B69275CAB7900060640 /* CommonUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1386B68275CAB7900060640 /* CommonUtils.swift */; };
+		E151EFC0275CACFC006FA950 /* IHProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = E151EFBF275CACFC006FA950 /* IHProgressHUD */; };
+		E158DE0827588F9400BB7F6B /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = E158DE0727588F9400BB7F6B /* SDWebImage */; };
+		E19A60E527574DE40001D572 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19A60E427574DE40001D572 /* AppDelegate.swift */; };
+		E19A60E727574DE40001D572 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19A60E627574DE40001D572 /* SceneDelegate.swift */; };
+		E19A60EC27574DE40001D572 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E19A60EA27574DE40001D572 /* Main.storyboard */; };
+		E19A60EE27574DE60001D572 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E19A60ED27574DE60001D572 /* Assets.xcassets */; };
+		E19A60F127574DE60001D572 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E19A60EF27574DE60001D572 /* LaunchScreen.storyboard */; };
+		E19A60FC27574DE60001D572 /* DmartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19A60FB27574DE60001D572 /* DmartTests.swift */; };
+		E19A610627574DE60001D572 /* DmartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19A610527574DE60001D572 /* DmartUITests.swift */; };
+		E19A610827574DE60001D572 /* DmartUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19A610727574DE60001D572 /* DmartUITestsLaunchTests.swift */; };
+		E19A611527574E2E0001D572 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19A611427574E2E0001D572 /* SignInView.swift */; };
+		E19A6117275752130001D572 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19A6116275752130001D572 /* HomeViewController.swift */; };
+		E19A6119275756C70001D572 /* BannerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19A6118275756C70001D572 /* BannerCollectionViewCell.swift */; };
+		E19A611B2757579D0001D572 /* GridCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19A611A2757579D0001D572 /* GridCollectionViewCell.swift */; };
+		E19A612027576AFB0001D572 /* ProductListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19A611E27576AFB0001D572 /* ProductListTableViewCell.swift */; };
+		E19A612127576AFB0001D572 /* ProductListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E19A611F27576AFB0001D572 /* ProductListTableViewCell.xib */; };
+		E19A612327579D150001D572 /* DmartBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19A612227579D150001D572 /* DmartBase.swift */; };
+		E19A612627579F480001D572 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19A612527579F480001D572 /* APIManager.swift */; };
+		E19A61292757A0B90001D572 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = E19A61282757A0B90001D572 /* Alamofire */; };
+		E19A612D2757A6430001D572 /* HomeViewVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19A612C2757A6430001D572 /* HomeViewVM.swift */; };
+		E19A612F2757A77D0001D572 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19A612E2757A77D0001D572 /* Constant.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E19A60F827574DE60001D572 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E19A60D927574DE40001D572 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E19A60E027574DE40001D572;
+			remoteInfo = Dmart;
+		};
+		E19A610227574DE60001D572 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E19A60D927574DE40001D572 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E19A60E027574DE40001D572;
+			remoteInfo = Dmart;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E1386B68275CAB7900060640 /* CommonUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonUtils.swift; sourceTree = "<group>"; };
+		E19A60E127574DE40001D572 /* Dmart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dmart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E19A60E427574DE40001D572 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E19A60E627574DE40001D572 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E19A60EB27574DE40001D572 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E19A60ED27574DE60001D572 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E19A60F027574DE60001D572 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E19A60F227574DE60001D572 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E19A60F727574DE60001D572 /* DmartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DmartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E19A60FB27574DE60001D572 /* DmartTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DmartTests.swift; sourceTree = "<group>"; };
+		E19A610127574DE60001D572 /* DmartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DmartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E19A610527574DE60001D572 /* DmartUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DmartUITests.swift; sourceTree = "<group>"; };
+		E19A610727574DE60001D572 /* DmartUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DmartUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E19A611427574E2E0001D572 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		E19A6116275752130001D572 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		E19A6118275756C70001D572 /* BannerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerCollectionViewCell.swift; sourceTree = "<group>"; };
+		E19A611A2757579D0001D572 /* GridCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridCollectionViewCell.swift; sourceTree = "<group>"; };
+		E19A611E27576AFB0001D572 /* ProductListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListTableViewCell.swift; sourceTree = "<group>"; };
+		E19A611F27576AFB0001D572 /* ProductListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductListTableViewCell.xib; sourceTree = "<group>"; };
+		E19A612227579D150001D572 /* DmartBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DmartBase.swift; sourceTree = "<group>"; };
+		E19A612527579F480001D572 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		E19A612C2757A6430001D572 /* HomeViewVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewVM.swift; sourceTree = "<group>"; };
+		E19A612E2757A77D0001D572 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E19A60DE27574DE40001D572 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E158DE0827588F9400BB7F6B /* SDWebImage in Frameworks */,
+				E151EFC0275CACFC006FA950 /* IHProgressHUD in Frameworks */,
+				E19A61292757A0B90001D572 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E19A60F427574DE60001D572 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E19A60FE27574DE60001D572 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E19A60D827574DE40001D572 = {
+			isa = PBXGroup;
+			children = (
+				E19A60E327574DE40001D572 /* Dmart */,
+				E19A60FA27574DE60001D572 /* DmartTests */,
+				E19A610427574DE60001D572 /* DmartUITests */,
+				E19A60E227574DE40001D572 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E19A60E227574DE40001D572 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E19A60E127574DE40001D572 /* Dmart.app */,
+				E19A60F727574DE60001D572 /* DmartTests.xctest */,
+				E19A610127574DE60001D572 /* DmartUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E19A60E327574DE40001D572 /* Dmart */ = {
+			isa = PBXGroup;
+			children = (
+				E19A612B2757A1620001D572 /* Utilities */,
+				E19A612A2757A13A0001D572 /* View */,
+				E19A612427579F360001D572 /* APIManager */,
+				E19A60E427574DE40001D572 /* AppDelegate.swift */,
+				E19A60E627574DE40001D572 /* SceneDelegate.swift */,
+				E19A611427574E2E0001D572 /* SignInView.swift */,
+				E19A6116275752130001D572 /* HomeViewController.swift */,
+				E19A612C2757A6430001D572 /* HomeViewVM.swift */,
+				E19A60EA27574DE40001D572 /* Main.storyboard */,
+				E19A60ED27574DE60001D572 /* Assets.xcassets */,
+				E19A60EF27574DE60001D572 /* LaunchScreen.storyboard */,
+				E19A60F227574DE60001D572 /* Info.plist */,
+			);
+			path = Dmart;
+			sourceTree = "<group>";
+		};
+		E19A60FA27574DE60001D572 /* DmartTests */ = {
+			isa = PBXGroup;
+			children = (
+				E19A60FB27574DE60001D572 /* DmartTests.swift */,
+			);
+			path = DmartTests;
+			sourceTree = "<group>";
+		};
+		E19A610427574DE60001D572 /* DmartUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E19A610527574DE60001D572 /* DmartUITests.swift */,
+				E19A610727574DE60001D572 /* DmartUITestsLaunchTests.swift */,
+			);
+			path = DmartUITests;
+			sourceTree = "<group>";
+		};
+		E19A612427579F360001D572 /* APIManager */ = {
+			isa = PBXGroup;
+			children = (
+				E19A612527579F480001D572 /* APIManager.swift */,
+			);
+			path = APIManager;
+			sourceTree = "<group>";
+		};
+		E19A612A2757A13A0001D572 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E19A6118275756C70001D572 /* BannerCollectionViewCell.swift */,
+				E19A611A2757579D0001D572 /* GridCollectionViewCell.swift */,
+				E19A611E27576AFB0001D572 /* ProductListTableViewCell.swift */,
+				E19A611F27576AFB0001D572 /* ProductListTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E19A612B2757A1620001D572 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				E19A612227579D150001D572 /* DmartBase.swift */,
+				E19A612E2757A77D0001D572 /* Constant.swift */,
+				E1386B68275CAB7900060640 /* CommonUtils.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E19A60E027574DE40001D572 /* Dmart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E19A610B27574DE60001D572 /* Build configuration list for PBXNativeTarget "Dmart" */;
+			buildPhases = (
+				E19A60DD27574DE40001D572 /* Sources */,
+				E19A60DE27574DE40001D572 /* Frameworks */,
+				E19A60DF27574DE40001D572 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dmart;
+			packageProductDependencies = (
+				E19A61282757A0B90001D572 /* Alamofire */,
+				E158DE0727588F9400BB7F6B /* SDWebImage */,
+				E151EFBF275CACFC006FA950 /* IHProgressHUD */,
+			);
+			productName = Dmart;
+			productReference = E19A60E127574DE40001D572 /* Dmart.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E19A60F627574DE60001D572 /* DmartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E19A610E27574DE60001D572 /* Build configuration list for PBXNativeTarget "DmartTests" */;
+			buildPhases = (
+				E19A60F327574DE60001D572 /* Sources */,
+				E19A60F427574DE60001D572 /* Frameworks */,
+				E19A60F527574DE60001D572 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E19A60F927574DE60001D572 /* PBXTargetDependency */,
+			);
+			name = DmartTests;
+			productName = DmartTests;
+			productReference = E19A60F727574DE60001D572 /* DmartTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E19A610027574DE60001D572 /* DmartUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E19A611127574DE60001D572 /* Build configuration list for PBXNativeTarget "DmartUITests" */;
+			buildPhases = (
+				E19A60FD27574DE60001D572 /* Sources */,
+				E19A60FE27574DE60001D572 /* Frameworks */,
+				E19A60FF27574DE60001D572 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E19A610327574DE60001D572 /* PBXTargetDependency */,
+			);
+			name = DmartUITests;
+			productName = DmartUITests;
+			productReference = E19A610127574DE60001D572 /* DmartUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E19A60D927574DE40001D572 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					E19A60E027574DE40001D572 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					E19A60F627574DE60001D572 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = E19A60E027574DE40001D572;
+					};
+					E19A610027574DE60001D572 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = E19A60E027574DE40001D572;
+					};
+				};
+			};
+			buildConfigurationList = E19A60DC27574DE40001D572 /* Build configuration list for PBXProject "Dmart" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E19A60D827574DE40001D572;
+			packageReferences = (
+				E19A61272757A0B90001D572 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				E158DE0627588F9400BB7F6B /* XCRemoteSwiftPackageReference "SDWebImage" */,
+				E151EFBE275CACFC006FA950 /* XCRemoteSwiftPackageReference "IHProgressHUD" */,
+			);
+			productRefGroup = E19A60E227574DE40001D572 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E19A60E027574DE40001D572 /* Dmart */,
+				E19A60F627574DE60001D572 /* DmartTests */,
+				E19A610027574DE60001D572 /* DmartUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E19A60DF27574DE40001D572 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E19A60F127574DE60001D572 /* LaunchScreen.storyboard in Resources */,
+				E19A612127576AFB0001D572 /* ProductListTableViewCell.xib in Resources */,
+				E19A60EE27574DE60001D572 /* Assets.xcassets in Resources */,
+				E19A60EC27574DE40001D572 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E19A60F527574DE60001D572 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E19A60FF27574DE60001D572 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E19A60DD27574DE40001D572 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E19A611B2757579D0001D572 /* GridCollectionViewCell.swift in Sources */,
+				E19A612027576AFB0001D572 /* ProductListTableViewCell.swift in Sources */,
+				E19A611527574E2E0001D572 /* SignInView.swift in Sources */,
+				E19A612627579F480001D572 /* APIManager.swift in Sources */,
+				E19A60E527574DE40001D572 /* AppDelegate.swift in Sources */,
+				E19A60E727574DE40001D572 /* SceneDelegate.swift in Sources */,
+				E19A612327579D150001D572 /* DmartBase.swift in Sources */,
+				E19A6119275756C70001D572 /* BannerCollectionViewCell.swift in Sources */,
+				E19A612F2757A77D0001D572 /* Constant.swift in Sources */,
+				E19A612D2757A6430001D572 /* HomeViewVM.swift in Sources */,
+				E1386B69275CAB7900060640 /* CommonUtils.swift in Sources */,
+				E19A6117275752130001D572 /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E19A60F327574DE60001D572 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E19A60FC27574DE60001D572 /* DmartTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E19A60FD27574DE60001D572 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E19A610627574DE60001D572 /* DmartUITests.swift in Sources */,
+				E19A610827574DE60001D572 /* DmartUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E19A60F927574DE60001D572 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E19A60E027574DE40001D572 /* Dmart */;
+			targetProxy = E19A60F827574DE60001D572 /* PBXContainerItemProxy */;
+		};
+		E19A610327574DE60001D572 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E19A60E027574DE40001D572 /* Dmart */;
+			targetProxy = E19A610227574DE60001D572 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E19A60EA27574DE40001D572 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E19A60EB27574DE40001D572 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E19A60EF27574DE60001D572 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E19A60F027574DE60001D572 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E19A610927574DE60001D572 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E19A610A27574DE60001D572 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E19A610C27574DE60001D572 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Dmart/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = avinash.Dmart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E19A610D27574DE60001D572 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Dmart/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = avinash.Dmart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		E19A610F27574DE60001D572 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = avinash.DmartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dmart.app/Dmart";
+			};
+			name = Debug;
+		};
+		E19A611027574DE60001D572 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = avinash.DmartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dmart.app/Dmart";
+			};
+			name = Release;
+		};
+		E19A611227574DE60001D572 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = avinash.DmartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Dmart;
+			};
+			name = Debug;
+		};
+		E19A611327574DE60001D572 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = avinash.DmartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Dmart;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E19A60DC27574DE40001D572 /* Build configuration list for PBXProject "Dmart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E19A610927574DE60001D572 /* Debug */,
+				E19A610A27574DE60001D572 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E19A610B27574DE60001D572 /* Build configuration list for PBXNativeTarget "Dmart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E19A610C27574DE60001D572 /* Debug */,
+				E19A610D27574DE60001D572 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E19A610E27574DE60001D572 /* Build configuration list for PBXNativeTarget "DmartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E19A610F27574DE60001D572 /* Debug */,
+				E19A611027574DE60001D572 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E19A611127574DE60001D572 /* Build configuration list for PBXNativeTarget "DmartUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E19A611227574DE60001D572 /* Debug */,
+				E19A611327574DE60001D572 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E151EFBE275CACFC006FA950 /* XCRemoteSwiftPackageReference "IHProgressHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Swiftify-Corp/IHProgressHUD.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.5;
+			};
+		};
+		E158DE0627588F9400BB7F6B /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		E19A61272757A0B90001D572 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E151EFBF275CACFC006FA950 /* IHProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E151EFBE275CACFC006FA950 /* XCRemoteSwiftPackageReference "IHProgressHUD" */;
+			productName = IHProgressHUD;
+		};
+		E158DE0727588F9400BB7F6B /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E158DE0627588F9400BB7F6B /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		E19A61282757A0B90001D572 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E19A61272757A0B90001D572 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = E19A60D927574DE40001D572 /* Project object */;
+}

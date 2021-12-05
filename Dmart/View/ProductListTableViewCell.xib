@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="219" id="KGk-i7-Jjw" customClass="ProductListTableViewCell" customModule="Dmart" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="518" height="219"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="518" height="219"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rrn-Kp-Hy6">
+                        <rect key="frame" x="5" y="5" width="508" height="209"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="3ib-jD-t01">
+                                <rect key="frame" x="10" y="10" width="122" height="113"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fortune Sunlite Refined Sunflower Oil: 1 Litre" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WaV-hR-TfV">
+                                <rect key="frame" x="142" y="10" width="356" height="26.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bookmark.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="NBm-cm-GMJ">
+                                <rect key="frame" x="142" y="42" width="20" height="19"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="0jf-zh-TbU"/>
+                                    <constraint firstAttribute="width" constant="20" id="EeD-08-Xea"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="bottom" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="358-UE-ah4">
+                                <rect key="frame" x="142" y="66.5" width="356" height="65.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MRP ₹117.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s8g-zL-PVi">
+                                        <rect key="frame" x="270" y="0.0" width="86" height="18"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                                        <color key="textColor" red="0.70980392160000005" green="0.70980392160000005" blue="0.70980392160000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DMart ₹105.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hUK-0i-4Mg">
+                                        <rect key="frame" x="242" y="24" width="114" height="17.5"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                        <color key="textColor" red="0.18823529411764706" green="0.60784313725490191" blue="0.34901960784313724" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Save ₹20.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tbS-l4-ztb">
+                                        <rect key="frame" x="277" y="47.5" width="79" height="18"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="13"/>
+                                        <color key="textColor" red="0.83137254901960778" green="0.39215686274509803" blue="0.36078431372549019" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="65.5" id="Jqy-mF-RK0"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="17" translatesAutoresizingMaskIntoConstraints="NO" id="pJq-S7-PIm">
+                                <rect key="frame" x="183" y="142.5" width="315" height="40"/>
+                                <subviews>
+                                    <button opaque="NO" tag="100" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3vC-9s-BKX">
+                                        <rect key="frame" x="0.0" y="0.0" width="149" height="40"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="12 L">
+                                                    <attributes>
+                                                        <font key="NSFont" size="12" name="Helvetica-Bold"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                            <color key="baseForegroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="cellBtnClicked:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="TMA-wl-nSN"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="200" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="boI-iB-bDj">
+                                        <rect key="frame" x="166" y="0.0" width="149" height="40"/>
+                                        <color key="backgroundColor" red="0.18823529411764706" green="0.60784313725490191" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="ADD TO CART">
+                                            <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="12"/>
+                                            <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="cellBtnClicked:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="v75-oy-KEy"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Zos-fi-BkZ"/>
+                                </constraints>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nxn-Os-YGo">
+                                <rect key="frame" x="10" y="148.5" width="100" height="28"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="Ar9-D4-vjG"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="ADD TO LIST">
+                                    <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="12"/>
+                                    <color key="baseForegroundColor" red="0.18823529410000001" green="0.60784313729999995" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                </buttonConfiguration>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j70-uq-P7k">
+                                <rect key="frame" x="10" y="197.5" width="488" height="1.5"/>
+                                <color key="backgroundColor" systemColor="systemGray2Color"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1.5" id="xJu-JL-qon"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="pJq-S7-PIm" firstAttribute="trailing" secondItem="358-UE-ah4" secondAttribute="trailing" id="1PI-NQ-nID"/>
+                            <constraint firstItem="NBm-cm-GMJ" firstAttribute="top" secondItem="WaV-hR-TfV" secondAttribute="bottom" constant="5" id="5GW-zL-xxw"/>
+                            <constraint firstItem="nxn-Os-YGo" firstAttribute="centerY" secondItem="pJq-S7-PIm" secondAttribute="centerY" id="7FB-FA-RMZ"/>
+                            <constraint firstAttribute="bottom" secondItem="j70-uq-P7k" secondAttribute="bottom" constant="10" id="7lz-GQ-Hn3"/>
+                            <constraint firstItem="WaV-hR-TfV" firstAttribute="leading" secondItem="3ib-jD-t01" secondAttribute="trailing" constant="10" id="8bN-fs-kn3"/>
+                            <constraint firstItem="NBm-cm-GMJ" firstAttribute="leading" secondItem="WaV-hR-TfV" secondAttribute="leading" id="Apn-so-EKl"/>
+                            <constraint firstItem="pJq-S7-PIm" firstAttribute="top" secondItem="358-UE-ah4" secondAttribute="bottom" constant="10.5" id="Bi6-p8-Jm4"/>
+                            <constraint firstItem="j70-uq-P7k" firstAttribute="trailing" secondItem="358-UE-ah4" secondAttribute="trailing" id="Jhb-Un-f3g"/>
+                            <constraint firstItem="358-UE-ah4" firstAttribute="leading" secondItem="WaV-hR-TfV" secondAttribute="leading" id="NSn-VD-nWI"/>
+                            <constraint firstItem="3ib-jD-t01" firstAttribute="leading" secondItem="Rrn-Kp-Hy6" secondAttribute="leading" constant="10" id="OUm-or-0Yd"/>
+                            <constraint firstItem="3ib-jD-t01" firstAttribute="height" secondItem="Rrn-Kp-Hy6" secondAttribute="height" multiplier="0.54" id="S4d-a4-jBU"/>
+                            <constraint firstItem="j70-uq-P7k" firstAttribute="leading" secondItem="3ib-jD-t01" secondAttribute="leading" id="TMC-Gq-9hh"/>
+                            <constraint firstItem="358-UE-ah4" firstAttribute="top" secondItem="NBm-cm-GMJ" secondAttribute="bottom" constant="5" id="VgA-nn-odx"/>
+                            <constraint firstItem="3ib-jD-t01" firstAttribute="top" secondItem="Rrn-Kp-Hy6" secondAttribute="top" constant="10" id="dwj-lF-F0u"/>
+                            <constraint firstItem="3ib-jD-t01" firstAttribute="width" secondItem="Rrn-Kp-Hy6" secondAttribute="width" multiplier="0.24" id="fs4-ox-bXi"/>
+                            <constraint firstAttribute="trailing" secondItem="WaV-hR-TfV" secondAttribute="trailing" constant="10" id="g4Y-01-hed"/>
+                            <constraint firstItem="nxn-Os-YGo" firstAttribute="leading" secondItem="3ib-jD-t01" secondAttribute="leading" id="hg9-vx-WDh"/>
+                            <constraint firstItem="358-UE-ah4" firstAttribute="trailing" secondItem="WaV-hR-TfV" secondAttribute="trailing" id="qys-Ly-ouB"/>
+                            <constraint firstItem="WaV-hR-TfV" firstAttribute="top" secondItem="3ib-jD-t01" secondAttribute="top" id="vIL-gU-nMq"/>
+                            <constraint firstItem="j70-uq-P7k" firstAttribute="top" secondItem="pJq-S7-PIm" secondAttribute="bottom" constant="15" id="x96-uZ-vEO"/>
+                            <constraint firstItem="pJq-S7-PIm" firstAttribute="width" secondItem="Rrn-Kp-Hy6" secondAttribute="width" multiplier="0.62" id="xJD-LA-STF"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="Rrn-Kp-Hy6" secondAttribute="bottom" constant="5" id="Jri-fk-zyp"/>
+                    <constraint firstItem="Rrn-Kp-Hy6" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="TNj-bE-9zS"/>
+                    <constraint firstItem="Rrn-Kp-Hy6" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="VdN-hM-wbM"/>
+                    <constraint firstAttribute="trailing" secondItem="Rrn-Kp-Hy6" secondAttribute="trailing" constant="5" id="ho4-wn-Buv"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="btnAddToCart" destination="boI-iB-bDj" id="cu0-dH-XxH"/>
+                <outlet property="btnQuantityInLtr" destination="3vC-9s-BKX" id="6Sr-UP-fzv"/>
+                <outlet property="imgView" destination="3ib-jD-t01" id="LvX-AT-4QD"/>
+            </connections>
+            <point key="canvasLocation" x="281.15942028985512" y="151.00446428571428"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="1" width="180" height="120"/>
+        <image name="bookmark.circle.fill" catalog="system" width="128" height="121"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray2Color">
+            <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,34 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Alamofire",
+        "repositoryURL": "https://github.com/Alamofire/Alamofire.git",
+        "state": {
+          "branch": null,
+          "revision": "d120af1e8638c7da36c8481fd61a66c0c08dc4fc",
+          "version": "5.4.4"
+        }
+      },
+      {
+        "package": "IHProgressHUD",
+        "repositoryURL": "https://github.com/Swiftify-Corp/IHProgressHUD.git",
+        "state": {
+          "branch": null,
+          "revision": "a3d94dfb869ff9b2f9e5a4d0359a73a625072853",
+          "version": "0.1.5"
+        }
+      },
+      {
+        "package": "SDWebImage",
+        "repositoryURL": "https://github.com/SDWebImage/SDWebImage.git",
+        "state": {
+          "branch": null,
+          "revision": "a72df4849408da7e5d3c1b586797b7c601c41d1b",
+          "version": "5.12.1"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
